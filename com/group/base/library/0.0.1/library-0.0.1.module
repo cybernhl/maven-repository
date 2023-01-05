@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.group.base",
+    "module": "library",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "library-0.0.1.jar",
+          "url": "library-0.0.1.jar",
+          "size": 150418,
+          "sha512": "9db4fd44128eca6a2787e34300f46c165feb2c800879c7debbb5920cb9feb0109d8513b321f9bdc4efeda37935e434a0b21f3630882dddfadb4765473e2f4ae4",
+          "sha256": "91c723b37d2027b427527630148730e0cb4fea4c103fa0cae5093ec43d874d58",
+          "sha1": "256d98c5d80971dc85de6af5c2fc29845da7710a",
+          "md5": "d6258e6b6bfb33ce97b2658502a4663a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.7.20"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.group.base.entity",
+          "module": "library_common_data",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth",
+          "version": {
+            "requires": "2.1.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth-jwt",
+          "version": {
+            "requires": "2.1.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-call-logging",
+          "version": {
+            "requires": "2.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-0.0.1.jar",
+          "url": "library-0.0.1.jar",
+          "size": 150418,
+          "sha512": "9db4fd44128eca6a2787e34300f46c165feb2c800879c7debbb5920cb9feb0109d8513b321f9bdc4efeda37935e434a0b21f3630882dddfadb4765473e2f4ae4",
+          "sha256": "91c723b37d2027b427527630148730e0cb4fea4c103fa0cae5093ec43d874d58",
+          "sha1": "256d98c5d80971dc85de6af5c2fc29845da7710a",
+          "md5": "d6258e6b6bfb33ce97b2658502a4663a"
+        }
+      ]
+    }
+  ]
+}

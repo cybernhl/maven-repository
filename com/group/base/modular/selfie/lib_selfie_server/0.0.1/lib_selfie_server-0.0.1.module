@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.group.base.modular.selfie",
+    "module": "lib_selfie_server",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "lib_selfie_server-0.0.1.jar",
+          "url": "lib_selfie_server-0.0.1.jar",
+          "size": 25356,
+          "sha512": "514158165db62d0a37dc8acf9d737278746ea3bb74735dc48da1bf3962d27b68d06ba19f0cf474c26b69b511ea406d8e5830755f62bef30f5c582dee683a046a",
+          "sha256": "761545c8233453ab71712bfa667d0bf1d40082ce24e7c13a7a2836606c8c8830",
+          "sha1": "c4cb1aea8f5b601161b9484eae1495d959e5f16a",
+          "md5": "e7dd5aae0f3db45c6f1e40de650bb01d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.0.1-jre"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.7.20"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.9.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.1"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "hilt-core",
+          "version": {
+            "requires": "2.42"
+          }
+        },
+        {
+          "group": "com.group.base",
+          "module": "library",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.group.base.entity",
+          "module": "library_common_data",
+          "version": {
+            "requires": "0.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib_selfie_server-0.0.1.jar",
+          "url": "lib_selfie_server-0.0.1.jar",
+          "size": 25356,
+          "sha512": "514158165db62d0a37dc8acf9d737278746ea3bb74735dc48da1bf3962d27b68d06ba19f0cf474c26b69b511ea406d8e5830755f62bef30f5c582dee683a046a",
+          "sha256": "761545c8233453ab71712bfa667d0bf1d40082ce24e7c13a7a2836606c8c8830",
+          "sha1": "c4cb1aea8f5b601161b9484eae1495d959e5f16a",
+          "md5": "e7dd5aae0f3db45c6f1e40de650bb01d"
+        }
+      ]
+    }
+  ]
+}

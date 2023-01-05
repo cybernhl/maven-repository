@@ -3,7 +3,7 @@
   "component": {
     "group": "com.group.base.entity",
     "module": "library_common_data",
-    "version": "unspecified",
+    "version": "0.0.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -27,13 +27,13 @@
       },
       "files": [
         {
-          "name": "library_common_data-unspecified.jar",
-          "url": "library_common_data-unspecified.jar",
-          "size": 48360,
-          "sha512": "c4b17713f307611607a4888a6d63dcaf595e7716af7b1af2db54808bf15d29981f736d3dd0664608eb62f50c8dbdd71ecc38c9ca577a3a570105996c28e0b0df",
-          "sha256": "1b43898eb8ea77fa93673fed8c623f58cd928c22ff0412f8ea576de63ba25e26",
-          "sha1": "9abde757d355b6f187074505e9ac6a91364e8ee5",
-          "md5": "391a1e26efd8afc4f271385faabce978"
+          "name": "library_common_data-0.0.1.jar",
+          "url": "library_common_data-0.0.1.jar",
+          "size": 80115,
+          "sha512": "bd3dcf80f187827e93e2984334605126b6d1ce5b107d962dfd320530e34b263b7528e90045e8ea0b5c34dc6d46d1f94505210efd15d0f5bb002124ad02c3bf60",
+          "sha256": "df96843b2077464e1a33cda80a70a267c99e1f32f05119e57cb8f18745a7297d",
+          "sha1": "554d9b63449e71d625c1edbb7022f6bd3e5dd4f9",
+          "md5": "ad5d188154e79afd230e83254cc2920b"
         }
       ]
     },
@@ -50,13 +50,13 @@
       },
       "files": [
         {
-          "name": "library_common_data-unspecified.jar",
-          "url": "library_common_data-unspecified.jar",
-          "size": 48360,
-          "sha512": "c4b17713f307611607a4888a6d63dcaf595e7716af7b1af2db54808bf15d29981f736d3dd0664608eb62f50c8dbdd71ecc38c9ca577a3a570105996c28e0b0df",
-          "sha256": "1b43898eb8ea77fa93673fed8c623f58cd928c22ff0412f8ea576de63ba25e26",
-          "sha1": "9abde757d355b6f187074505e9ac6a91364e8ee5",
-          "md5": "391a1e26efd8afc4f271385faabce978"
+          "name": "library_common_data-0.0.1.jar",
+          "url": "library_common_data-0.0.1.jar",
+          "size": 80115,
+          "sha512": "bd3dcf80f187827e93e2984334605126b6d1ce5b107d962dfd320530e34b263b7528e90045e8ea0b5c34dc6d46d1f94505210efd15d0f5bb002124ad02c3bf60",
+          "sha256": "df96843b2077464e1a33cda80a70a267c99e1f32f05119e57cb8f18745a7297d",
+          "sha1": "554d9b63449e71d625c1edbb7022f6bd3e5dd4f9",
+          "md5": "ad5d188154e79afd230e83254cc2920b"
         }
       ]
     }

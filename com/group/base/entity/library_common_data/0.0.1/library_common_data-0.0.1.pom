@@ -8,7 +8,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.group.base.entity</groupId>
   <artifactId>library_common_data</artifactId>
-  <version>unspecified</version>
+  <version>0.0.1</version>
   <name>library_common_data</name>
   <description>an AES decrypt and encrypt for jni !!</description>
   <url>https://github.com/xiangdingquan/Aes</url>

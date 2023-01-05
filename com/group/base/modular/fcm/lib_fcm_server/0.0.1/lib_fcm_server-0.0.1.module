@@ -1,0 +1,224 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.group.base.modular.fcm",
+    "module": "lib_fcm_server",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "lib_fcm_server-0.0.1.jar",
+          "url": "lib_fcm_server-0.0.1.jar",
+          "size": 39655,
+          "sha512": "e89cef4be2a8bca8e5b39dee286a69bfc0860563b1349810dbf303aac1e2cc8c4e2ca57175a95f4a2a1fb7ced06dfeaa7966362b482e9e6b877834087da28810",
+          "sha256": "60db18a578873afa6db6381fce859e8f999fb5dfadac8f95a392a3c834b7fa8a",
+          "sha1": "b853e6b340d8a6c55a9b8439359ed282ec2b40ed",
+          "md5": "49021c06919805ec2afc4560a14c5e6c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.0.1-jre"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.7.20"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-admin",
+          "version": {
+            "requires": "6.8.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.9.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.1"
+          }
+        },
+        {
+          "group": "org.xerial",
+          "module": "sqlite-jdbc",
+          "version": {
+            "requires": "3.21.0.1"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "hilt-core",
+          "version": {
+            "requires": "2.42"
+          }
+        },
+        {
+          "group": "com.group.base",
+          "module": "library",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.group.base.entity",
+          "module": "library_common_data",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "2.1.13.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-logging",
+          "version": {
+            "requires": "2.1.13.RELEASE"
+          }
+        },
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.12"
+          }
+        },
+        {
+          "group": "cn.hutool",
+          "module": "hutool-all",
+          "version": {
+            "requires": "5.3.8"
+          }
+        },
+        {
+          "group": "org.springframework.data",
+          "module": "spring-data-commons",
+          "version": {
+            "requires": "2.3.1.RELEASE"
+          }
+        },
+        {
+          "group": "com.github.pagehelper",
+          "module": "pagehelper-spring-boot-starter",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.springfox",
+          "module": "springfox-swagger2",
+          "version": {
+            "requires": "2.9.2"
+          }
+        },
+        {
+          "group": "io.springfox",
+          "module": "springfox-swagger-ui",
+          "version": {
+            "requires": "2.9.2"
+          }
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt",
+          "version": {
+            "requires": "0.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib_fcm_server-0.0.1.jar",
+          "url": "lib_fcm_server-0.0.1.jar",
+          "size": 39655,
+          "sha512": "e89cef4be2a8bca8e5b39dee286a69bfc0860563b1349810dbf303aac1e2cc8c4e2ca57175a95f4a2a1fb7ced06dfeaa7966362b482e9e6b877834087da28810",
+          "sha256": "60db18a578873afa6db6381fce859e8f999fb5dfadac8f95a392a3c834b7fa8a",
+          "sha1": "b853e6b340d8a6c55a9b8439359ed282ec2b40ed",
+          "md5": "49021c06919805ec2afc4560a14c5e6c"
+        }
+      ]
+    }
+  ]
+}
