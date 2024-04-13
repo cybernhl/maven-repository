@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.zhkl0228",
+    "module": "unidbg-dynarmic",
+    "version": "0.9.8-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.5"
+          }
+        },
+        {
+          "group": "com.github.zhkl0228",
+          "module": "unidbg-api",
+          "version": {
+            "requires": "0.9.8-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "unidbg-dynarmic-0.9.8-SNAPSHOT.jar",
+          "url": "unidbg-dynarmic-0.9.8-SNAPSHOT.jar",
+          "size": 6360223,
+          "sha512": "17a853d8153b104668b672a09377e1a3302e655428b581b4ee54dc571bea9465c0ec22be9d26ac893923602c6b0c34dad6a3840a04108780d8f1ec279696f961",
+          "sha256": "e7957023002a36059e596da22948cfb09dfebf580f07055669001ee0c29b1647",
+          "sha1": "203a0124b3e8e3a1068aba5af6bce6226a408ee6",
+          "md5": "6344e651a0568e9b21d6c9897f910ea0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.5"
+          }
+        },
+        {
+          "group": "com.github.zhkl0228",
+          "module": "unidbg-api",
+          "version": {
+            "requires": "0.9.8-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "unidbg-dynarmic-0.9.8-SNAPSHOT.jar",
+          "url": "unidbg-dynarmic-0.9.8-SNAPSHOT.jar",
+          "size": 6360223,
+          "sha512": "17a853d8153b104668b672a09377e1a3302e655428b581b4ee54dc571bea9465c0ec22be9d26ac893923602c6b0c34dad6a3840a04108780d8f1ec279696f961",
+          "sha256": "e7957023002a36059e596da22948cfb09dfebf580f07055669001ee0c29b1647",
+          "sha1": "203a0124b3e8e3a1068aba5af6bce6226a408ee6",
+          "md5": "6344e651a0568e9b21d6c9897f910ea0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "unidbg-dynarmic-0.9.8-SNAPSHOT-sources.jar",
+          "url": "unidbg-dynarmic-0.9.8-SNAPSHOT-sources.jar",
+          "size": 6352972,
+          "sha512": "9d6cf6ccde1fb18b85ac0cf26596bb565679f0143bf612b0c7ac980186bd7c19cda49c06847b31801bde32692dd83139bc7158b6d2486f5aa85f93a27ceed75b",
+          "sha256": "e5c16496afba8fcafa0547ee9283defd0384ba0f799b2d95dcd1ea44de2bb37e",
+          "sha1": "2d54fe533b4728fefba13134a9a96b0bb18c46a3",
+          "md5": "602ecd5360b9012c251f5ffa4176638a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "unidbg-dynarmic-0.9.8-SNAPSHOT-javadoc.jar",
+          "url": "unidbg-dynarmic-0.9.8-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "9bb999cffba6035b4b7560cefe17c1f44860ced4eaeb01db065491f6b8c9aa9c13907e1c83f36cb47de3ae57fafe988f869abe82e3ffee871dc19d0304039507",
+          "sha256": "09a8b08226b0200309eb4761ad8d78c27ce21b73fb2f968dd043f621dfdc45b9",
+          "sha1": "966133404eeffe06cd1b7e4348dea1b083d17f0e",
+          "md5": "e38e3571040fcbfd6ba7d83d15ac86c6"
+        }
+      ]
+    }
+  ]
+}

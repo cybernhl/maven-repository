@@ -1,0 +1,244 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.zhkl0228",
+    "module": "unidbg-api",
+    "version": "0.9.8-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.5"
+          }
+        },
+        {
+          "group": "com.github.zhkl0228",
+          "module": "unicorn",
+          "version": {
+            "requires": "1.0.14"
+          }
+        },
+        {
+          "group": "com.github.zhkl0228",
+          "module": "capstone",
+          "version": {
+            "requires": "3.1.8"
+          }
+        },
+        {
+          "group": "com.github.zhkl0228",
+          "module": "keystone",
+          "version": {
+            "requires": "0.9.7"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.15"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-collections4",
+          "version": {
+            "requires": "4.4"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "commons-logging",
+          "module": "commons-logging",
+          "version": {
+            "requires": "1.2"
+          }
+        },
+        {
+          "group": "com.alibaba",
+          "module": "fastjson",
+          "version": {
+            "requires": "1.2.83"
+          }
+        },
+        {
+          "group": "com.github.zhkl0228",
+          "module": "demumble",
+          "version": {
+            "requires": "1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "unidbg-api-0.9.8-SNAPSHOT.jar",
+          "url": "unidbg-api-0.9.8-SNAPSHOT.jar",
+          "size": 365182,
+          "sha512": "7bafed2a93a8d3e0570466861f5042f7d527b0dc39208bb263d93a743657e4efca65c7033091b6dd5ca16d50bdc5a840a327b494974ea0fa57e92c571cfea004",
+          "sha256": "6ba795e150c27f7d15dc89c494ab5061d1e3c54fa6de9759ecc070556e290272",
+          "sha1": "9b8739eb1f29ea9259b483002707661f3b30309d",
+          "md5": "7acc7b4f411fc1c01b94e965dc38835a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.5"
+          }
+        },
+        {
+          "group": "com.github.zhkl0228",
+          "module": "unicorn",
+          "version": {
+            "requires": "1.0.14"
+          }
+        },
+        {
+          "group": "com.github.zhkl0228",
+          "module": "capstone",
+          "version": {
+            "requires": "3.1.8"
+          }
+        },
+        {
+          "group": "com.github.zhkl0228",
+          "module": "keystone",
+          "version": {
+            "requires": "0.9.7"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.15"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-collections4",
+          "version": {
+            "requires": "4.4"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "commons-logging",
+          "module": "commons-logging",
+          "version": {
+            "requires": "1.2"
+          }
+        },
+        {
+          "group": "com.alibaba",
+          "module": "fastjson",
+          "version": {
+            "requires": "1.2.83"
+          }
+        },
+        {
+          "group": "com.github.zhkl0228",
+          "module": "demumble",
+          "version": {
+            "requires": "1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "unidbg-api-0.9.8-SNAPSHOT.jar",
+          "url": "unidbg-api-0.9.8-SNAPSHOT.jar",
+          "size": 365182,
+          "sha512": "7bafed2a93a8d3e0570466861f5042f7d527b0dc39208bb263d93a743657e4efca65c7033091b6dd5ca16d50bdc5a840a327b494974ea0fa57e92c571cfea004",
+          "sha256": "6ba795e150c27f7d15dc89c494ab5061d1e3c54fa6de9759ecc070556e290272",
+          "sha1": "9b8739eb1f29ea9259b483002707661f3b30309d",
+          "md5": "7acc7b4f411fc1c01b94e965dc38835a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "unidbg-api-0.9.8-SNAPSHOT-sources.jar",
+          "url": "unidbg-api-0.9.8-SNAPSHOT-sources.jar",
+          "size": 181215,
+          "sha512": "62492d032f390b12d1ad8e5d518c4584d72382292a3512dd2056f58c9fba5fd2b57212ecceb352ca977f06748a0fb0e44a9c70542162fe5efa8d973ecd34197b",
+          "sha256": "660e327ae71c798d4e4e32c9353428ac775be76eecb269aff9888a55b24bb664",
+          "sha1": "4b6488326a9ec08a30fd0bf4a46de9f191cdae53",
+          "md5": "63323779742dcbb673f2b273142a80de"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "unidbg-api-0.9.8-SNAPSHOT-javadoc.jar",
+          "url": "unidbg-api-0.9.8-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "29ce9c1ca50abe74c54939971fdb1137363cd9f331b33abb9b1e04fcdf21958bc5ee872b8dd9db860eee0213dc60f41f97fee0cec6d6f18579831e290c0d0441",
+          "sha256": "d56b33d9fb4af379995054ab2d282e6cbb7393699323f3064a62771bedf1ab54",
+          "sha1": "4a91256fb5f97f7d542a87c304521dea74a676b3",
+          "md5": "ee34cb0ec93d46eb8f06c3fc055b2755"
+        }
+      ]
+    }
+  ]
+}

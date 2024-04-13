@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.zhkl0228",
+    "module": "unidbg-ios",
+    "version": "0.9.8-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.5"
+          }
+        },
+        {
+          "group": "com.github.zhkl0228",
+          "module": "unidbg-api",
+          "version": {
+            "requires": "0.9.8-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.kaitai",
+          "module": "kaitai-struct-runtime",
+          "version": {
+            "requires": "0.8"
+          }
+        },
+        {
+          "group": "com.googlecode.plist",
+          "module": "dd-plist",
+          "version": {
+            "requires": "1.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "unidbg-ios-0.9.8-SNAPSHOT.jar",
+          "url": "unidbg-ios-0.9.8-SNAPSHOT.jar",
+          "size": 39617600,
+          "sha512": "7e38598df776f225cbf7c7628f26214d2800f2b62c0541a26786057a27893a51a179f6b52c5e049add3c4bea20c7a91752438dc39b5b831a23b6a8c0553afcd5",
+          "sha256": "6c244239abb58ee4cb47a3c163147e9d65b1fb9eeb94979f67d5c157618837ed",
+          "sha1": "ee32f36436cce9e26fa9cb4f6d78e45b4a91a85a",
+          "md5": "d00986468cafbe70b22882016cada02e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.5"
+          }
+        },
+        {
+          "group": "com.github.zhkl0228",
+          "module": "unidbg-api",
+          "version": {
+            "requires": "0.9.8-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.kaitai",
+          "module": "kaitai-struct-runtime",
+          "version": {
+            "requires": "0.8"
+          }
+        },
+        {
+          "group": "com.googlecode.plist",
+          "module": "dd-plist",
+          "version": {
+            "requires": "1.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "unidbg-ios-0.9.8-SNAPSHOT.jar",
+          "url": "unidbg-ios-0.9.8-SNAPSHOT.jar",
+          "size": 39617600,
+          "sha512": "7e38598df776f225cbf7c7628f26214d2800f2b62c0541a26786057a27893a51a179f6b52c5e049add3c4bea20c7a91752438dc39b5b831a23b6a8c0553afcd5",
+          "sha256": "6c244239abb58ee4cb47a3c163147e9d65b1fb9eeb94979f67d5c157618837ed",
+          "sha1": "ee32f36436cce9e26fa9cb4f6d78e45b4a91a85a",
+          "md5": "d00986468cafbe70b22882016cada02e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "unidbg-ios-0.9.8-SNAPSHOT-sources.jar",
+          "url": "unidbg-ios-0.9.8-SNAPSHOT-sources.jar",
+          "size": 39167852,
+          "sha512": "5589360d5c88f1cc1b2cc2f26ecae0d2e611dcc4f3a5e4549c552304ec43b151fe35f49b975d664f711d4e4fd98d959dae57965b59d1f6eee2aa0fc825a737a9",
+          "sha256": "eb544a93ba9554f81c2ed3dd5eb8f8e0c1376870e2dcfbb575eb2a3824358769",
+          "sha1": "f18231a17da6c538a15b5362e953eb8ee9563f6c",
+          "md5": "f3389038b32aecc3a7d3f30308930746"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "unidbg-ios-0.9.8-SNAPSHOT-javadoc.jar",
+          "url": "unidbg-ios-0.9.8-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "91f387831b578c843c8c3a4af50cc91c0ae85257fd19687acef9fda0d913f72b92cefa85edff4dd41682e01895e3fefedf62f5af753631f45dac3a1a4e31b926",
+          "sha256": "894320fe59e58e2d3e401d3625219809c40acc06eaae0e3dfab755e05274dcd9",
+          "sha1": "caf685bd48ca77c19c01362db4287862ff4854bb",
+          "md5": "f29fe584ffd4ff9684622c3d67aae505"
+        }
+      ]
+    }
+  ]
+}

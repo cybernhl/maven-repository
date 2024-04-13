@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.zhkl0228",
+    "module": "unidbg-kvm",
+    "version": "0.9.8-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.5"
+          }
+        },
+        {
+          "group": "com.github.zhkl0228",
+          "module": "unidbg-api",
+          "version": {
+            "requires": "0.9.8-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "unidbg-kvm-0.9.8-SNAPSHOT.jar",
+          "url": "unidbg-kvm-0.9.8-SNAPSHOT.jar",
+          "size": 34003,
+          "sha512": "34fc35ca082134c19c6fb767c69e1cabf0cdcc346ced4a7ae47b2d318de9c21ff3e97ba0280bfd45b5d5194b8ac4398741f188047998ea3297f92509340b0513",
+          "sha256": "6d542518ed4a9a9178ec0693c7b93da91c5dd5ed1a626d319d63b47238990c55",
+          "sha1": "02ffe44af47eb4a1104ac3db63074a2fbedbf9a7",
+          "md5": "18a6f7b014678a20fb5602112071bda6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.5"
+          }
+        },
+        {
+          "group": "com.github.zhkl0228",
+          "module": "unidbg-api",
+          "version": {
+            "requires": "0.9.8-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "unidbg-kvm-0.9.8-SNAPSHOT.jar",
+          "url": "unidbg-kvm-0.9.8-SNAPSHOT.jar",
+          "size": 34003,
+          "sha512": "34fc35ca082134c19c6fb767c69e1cabf0cdcc346ced4a7ae47b2d318de9c21ff3e97ba0280bfd45b5d5194b8ac4398741f188047998ea3297f92509340b0513",
+          "sha256": "6d542518ed4a9a9178ec0693c7b93da91c5dd5ed1a626d319d63b47238990c55",
+          "sha1": "02ffe44af47eb4a1104ac3db63074a2fbedbf9a7",
+          "md5": "18a6f7b014678a20fb5602112071bda6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "unidbg-kvm-0.9.8-SNAPSHOT-sources.jar",
+          "url": "unidbg-kvm-0.9.8-SNAPSHOT-sources.jar",
+          "size": 24422,
+          "sha512": "565a089bf0f510330a51010d749a0d6e7603a5a54bd2276ed32f77c8cbd8b0fccf0e5d8f503b2ff3791a2e653ec4ac20c5e5cfd7596ca74df1f0e2284383235f",
+          "sha256": "b849bfbe7a0ef017b7745a89c20c4d8fc746c88c2add501446956b9cae5bb56a",
+          "sha1": "6eb4b2b683f75f75029dfd006c10d0e175f893ae",
+          "md5": "d754e30c9aadd09bd572d3e00f1c4acd"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "unidbg-kvm-0.9.8-SNAPSHOT-javadoc.jar",
+          "url": "unidbg-kvm-0.9.8-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "ae60272105ce3041828c77e59852bfd1477eeed70a90bbb22a5b06e122da58aa9d9636ed3c1ad7652e1cc04f7c026cde875e99a9cddfabe40f712dfebd3df0e6",
+          "sha256": "661d38cce01db14ecbccf265305954bd1d75fa2598aa8b7ea727fd9abf2b9526",
+          "sha1": "82ca86f2a0f79b718c060bce7530761bb6b9b09e",
+          "md5": "499d427ae2632497c318a624ea3bbefe"
+        }
+      ]
+    }
+  ]
+}

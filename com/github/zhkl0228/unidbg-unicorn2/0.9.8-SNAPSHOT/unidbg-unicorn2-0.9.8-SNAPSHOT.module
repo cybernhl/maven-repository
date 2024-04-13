@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.zhkl0228",
+    "module": "unidbg-unicorn2",
+    "version": "0.9.8-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.5"
+          }
+        },
+        {
+          "group": "com.github.zhkl0228",
+          "module": "unidbg-api",
+          "version": {
+            "requires": "0.9.8-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "unidbg-unicorn2-0.9.8-SNAPSHOT.jar",
+          "url": "unidbg-unicorn2-0.9.8-SNAPSHOT.jar",
+          "size": 6622717,
+          "sha512": "7d5f49a97d0db30ef7aba34d30845fa4b5ce62701f5c3fa2432db968adb41d1d9e49e93d8cefc3d875fce06e46065e3331d431a9b2ae1581a6c6a66fca2fc244",
+          "sha256": "9610bc9fe68260652a9343003f217eb6c6b1fc80cff147c7c42a074968c3e1f9",
+          "sha1": "c33add82cd5ec1422b6485bef0c5920ef377fd73",
+          "md5": "40908cd8743f2dc72af5ed000e330c29"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.5"
+          }
+        },
+        {
+          "group": "com.github.zhkl0228",
+          "module": "unidbg-api",
+          "version": {
+            "requires": "0.9.8-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "unidbg-unicorn2-0.9.8-SNAPSHOT.jar",
+          "url": "unidbg-unicorn2-0.9.8-SNAPSHOT.jar",
+          "size": 6622717,
+          "sha512": "7d5f49a97d0db30ef7aba34d30845fa4b5ce62701f5c3fa2432db968adb41d1d9e49e93d8cefc3d875fce06e46065e3331d431a9b2ae1581a6c6a66fca2fc244",
+          "sha256": "9610bc9fe68260652a9343003f217eb6c6b1fc80cff147c7c42a074968c3e1f9",
+          "sha1": "c33add82cd5ec1422b6485bef0c5920ef377fd73",
+          "md5": "40908cd8743f2dc72af5ed000e330c29"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "unidbg-unicorn2-0.9.8-SNAPSHOT-sources.jar",
+          "url": "unidbg-unicorn2-0.9.8-SNAPSHOT-sources.jar",
+          "size": 6608129,
+          "sha512": "b2b851eaea6338daabfd83050824d9a6a3850d11316b3c544d9b37a29a676fccd66081b74990b9592f1d23533ab2cff8a7ae3e20f354917125d2f31391571b13",
+          "sha256": "727b7fa512d4ea2b1594e9b401390e01c9ecf369d7fd51f48d89e5b4d7feb92f",
+          "sha1": "c0557e5dda38839d984e1950ba51b7eda3514cef",
+          "md5": "5e1b5b044510520490655e23bd6f9048"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "unidbg-unicorn2-0.9.8-SNAPSHOT-javadoc.jar",
+          "url": "unidbg-unicorn2-0.9.8-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "c3ffe474a984a552bf3c6342e55654daf3cca5ecb11cfe6cb18079a5dccc925dcd3acda2ed5cf60de59b7b263d18a16359ae978b7e9e5d7e91eac6a579d8e65b",
+          "sha256": "5d9245eb44de2508a36c6b17f9c960148fa4ab454e5ddf262cbb9dfa118af65a",
+          "sha1": "d231868acfe5eafdd14c9b037cea2278d804d43b",
+          "md5": "673cac12fd20cc2f861414005397e3f4"
+        }
+      ]
+    }
+  ]
+}

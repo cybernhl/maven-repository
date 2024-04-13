@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.zhkl0228",
+    "module": "unidbg-android",
+    "version": "0.9.8-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.5"
+          }
+        },
+        {
+          "group": "com.github.zhkl0228",
+          "module": "unidbg-api",
+          "version": {
+            "requires": "0.9.8-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.dongliu",
+          "module": "apk-parser",
+          "version": {
+            "requires": "2.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "unidbg-android-0.9.8-SNAPSHOT.jar",
+          "url": "unidbg-android-0.9.8-SNAPSHOT.jar",
+          "size": 6150122,
+          "sha512": "f830c3992c4d8d556924b0c06d4311ea6cea6ba734a5fdbe38a0cb199da81ab106d20b5ac6fe33b35c6746d67037cb8599a9d53343fd4b81d11da830659e6b3b",
+          "sha256": "38930a224def267c0f4673f6bb9caa77ad4b40fdc4369e65ae5403dfc2992889",
+          "sha1": "5671c36752499b4afc6788e292d6ddb2f55e4e6e",
+          "md5": "e8a8d114cb8c631aab51f1178a264607"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.5"
+          }
+        },
+        {
+          "group": "com.github.zhkl0228",
+          "module": "unidbg-api",
+          "version": {
+            "requires": "0.9.8-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.dongliu",
+          "module": "apk-parser",
+          "version": {
+            "requires": "2.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "unidbg-android-0.9.8-SNAPSHOT.jar",
+          "url": "unidbg-android-0.9.8-SNAPSHOT.jar",
+          "size": 6150122,
+          "sha512": "f830c3992c4d8d556924b0c06d4311ea6cea6ba734a5fdbe38a0cb199da81ab106d20b5ac6fe33b35c6746d67037cb8599a9d53343fd4b81d11da830659e6b3b",
+          "sha256": "38930a224def267c0f4673f6bb9caa77ad4b40fdc4369e65ae5403dfc2992889",
+          "sha1": "5671c36752499b4afc6788e292d6ddb2f55e4e6e",
+          "md5": "e8a8d114cb8c631aab51f1178a264607"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "unidbg-android-0.9.8-SNAPSHOT-sources.jar",
+          "url": "unidbg-android-0.9.8-SNAPSHOT-sources.jar",
+          "size": 5286471,
+          "sha512": "357839e13ef76783b5d77f31bdf45849b8a917a01e49455752019cae92dd3705675bd2a347db09106f6b0c869b984aa34625bb272ba1dd6fa4206ee609abe965",
+          "sha256": "6670e279ede42aa304e32eb452529171224c6827b887a64eaa24286b5aee11eb",
+          "sha1": "f6ee0fbde267834641f58d046944453324fcc708",
+          "md5": "a704945cd53e41d8aac4413e40b9e98c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "unidbg-android-0.9.8-SNAPSHOT-javadoc.jar",
+          "url": "unidbg-android-0.9.8-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "f8de164faf0afd6d49e7933ec8076768d0395c6362637d3067b9a7a9952faff6783924968e710ce1168b3e1f1f0fd724e70ba6773facfc5b81d2bba5dead8dd5",
+          "sha256": "87add92ee3f7ac7e7d2b64014c669a7cd9ad716838a85c1c073321e81f69b11d",
+          "sha1": "213a2db43580a49ae3281f539fd0dd6091c6f1c7",
+          "md5": "1fc1bd6dfbfaf644f67dd3db5f479727"
+        }
+      ]
+    }
+  ]
+}
